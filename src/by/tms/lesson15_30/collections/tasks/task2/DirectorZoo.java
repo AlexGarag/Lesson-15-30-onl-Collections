@@ -13,13 +13,14 @@ public class DirectorZoo {
         zoo.add("слон");
         zoo.add("мышь");
         zoo.add("пингвин");
-
+        System.out.println("В зоопарке числятся:");
         for (int i = 0; i < zoo.animals.size(); i++) {
             System.out.println(zoo.animals.get(i));
         }
         System.out.println();
         zoo.remove("мышь");
 
+        System.out.println("В зоопарке числятся:");
         for (String animal : zoo.animals) {
             System.out.println(animal);
         }
