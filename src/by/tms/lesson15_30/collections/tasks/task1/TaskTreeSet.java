@@ -1,4 +1,4 @@
-package by.tms.lesson15_30.collections.tasks;
+package by.tms.lesson15_30.collections.tasks.task1;
 
 /*
     Пользователь вводит набор чисел в виде одной строки с клавиатуры. Например: "1, 2, 3, 4, 4, 5".
@@ -10,7 +10,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Task1 {
+public class TaskTreeSet {
     public static void main(String[] args) {
         Set<Integer> treeSet = new TreeSet<>();
         Scanner sc = new Scanner(System.in);
